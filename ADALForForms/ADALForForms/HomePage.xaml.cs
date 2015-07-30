@@ -10,9 +10,9 @@ namespace ADALForForms
 {
     public partial class HomePage : ContentPage
     {
-        public static string clientId = "c24f913b-b3f0-4b95-ab91-a990d12855d3";
+        public static string clientId = "your-client-id";
         public static string authority = "https://login.windows.net/common";
-        public static string returnUri = "http://employee-directory-redirect";
+        public static string returnUri = "your-redirect-uri";
         private const string graphResourceUri = "https://graph.windows.net";
         public static string graphApiVersion = "2013-11-08";
         private AuthenticationResult authResult = null;
